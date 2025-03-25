@@ -1,0 +1,9 @@
+/target/
+build/
+.gradle/
+out.json
+out.yml
+.classpath
+.project
+.settings/
+out.txt

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="Automation Test Suite" data-provider-thread-count="7" preserve-order="true" > -->
+<suite name="Automation Test Suite" parallel="methods" thread-count="2" preserve-order="true">
+<listeners>
+<listener class-name="configuration.login.TestListener"></listener>
+</listeners>
+  <test  name="Test1">
+  <classes>
+  <class name="configuration.runner.Mars_Metrics_runner"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
