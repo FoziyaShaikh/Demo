@@ -64,7 +64,7 @@ public class Object_Maps_Step_def {
 	@When("click on save")
 	public void click_on_save() throws InterruptedException {
 		object_Map_page.clickOnSaveButton();
-		logger.info("save");
+		//logger.info("save");
 	}
 	
 	
